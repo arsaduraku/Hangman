@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+//Kjo strukture perdoret per te ruajtur statistikat e lojtarit ne lojen e fjaleve qe ke ndertuar.
+struct PlayerStats {
+    int wins;
+    int losses;
+    float successRate;
+};
