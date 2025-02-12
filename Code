@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 //Kjo strukture perdoret per te ruajtur statistikat e lojtarit ne lojen e fjaleve qe ke ndertuar.
@@ -7,3 +8,16 @@ struct PlayerStats {
     int losses;
     float successRate;
 };
+
+//Funksioni shfaq fjalen duke zevendesuar shkronjat e pazbuluara me _ , bazuar ne vektorin guessed, qe tregon cilat shkronja jane gjetur.
+void printWord(string word, vector<bool> guessed) { 
+    for (size_t i = 0; i < word.length(); i++) {
+        if (guessed[i]) {
+            cout << word[i] << " ";
+        }
+        else {
+            cout << "_ ";
+        }
+    }
+    cout << endl;
+}
