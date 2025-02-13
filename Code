@@ -39,3 +39,13 @@ void saveStats(PlayerStats stats) {
         file.close();
     }
 }
+//Funksioni lexon statistikat e lojtarit nga skedari ("stats.txt") duke perdorur `ifstream` dhe i kthen ato si nje strukture `PlayerStats`.
+PlayerStats loadStats() {
+    ifstream file("stats.txt");  //fstream
+    PlayerStats stats = { 0, 0, 0.0 };
+    if (file.is_open()) {
+        file >> stats.wins >> stats.losses >> stats.successRate;
+        file.close();
+    }
+    return stats;
+}
