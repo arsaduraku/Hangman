@@ -1,6 +1,10 @@
 #include <iostream>
 #include <vector>
 #include <fstream>
+#include <map>
+#include <utility>  
+
+
 using namespace std;
 
 // Struktura ruan statistikat e lojtarit, përfshirë fitoret, humbjet dhe shkallën e suksesit.
@@ -22,6 +26,7 @@ void printWord(string word, vector<bool> guessed) {
     }
     cout << endl;
 }
+
 //Funksioni kontrollon nese te gjitha shkronjat e fjales jane gjetur duke verifikuar nese te gjitha vlerat ne vektorin `guessed` jane `true`.
 bool isWordGuessed(vector<bool> guessed) {
     for (bool g : guessed) {
@@ -29,6 +34,7 @@ bool isWordGuessed(vector<bool> guessed) {
     }
     return true;
 }
+
 
 
 //Funksioni ruan statistikat e lojtarit ne nje skedar te quajtur ("stats.txt") duke perdorur objektin `ofstream`.
@@ -104,3 +110,14 @@ void playGame(string word, string hint, PlayerStats& stats) {
     saveStats(stats);
 }
 
+
+//Funksioni `main` inicializon lojen duke zgjedhur nje fjale random nga lista, ngarkon statistikat e lojtarit dhe ekzekuton funksionin `playGame` per te filluar lojen.
+int main() {
+    map<int, vector<pair<string, string>>> difficultyWords = {
+       {1, {{"kompjuteri", "Nje pajisje elektronike qe perpunon te dhena dhe kryen llogaritje komplekse permes softuerit dhe harduerit te tij."}}},
+       {2, {{"powerpoint", "Nje program i zhvilluar nga Microsoft qe perdoret per te krijuar prezantime vizuale."},
+            {"projekti", "Nje pune ose detyre e planifikuar qe ka nje qellim specifik dhe zakonisht perfshin disa hapa per ta realizuar."}}},
+       {3, {{"figma", "Nje mjet i fuqishem per dizajnin e nderfaqeve UI/UX qe funksionon ne internet."},
+            {"github", "Nje platforme e njohur per ruajtjen dhe ndarjen e kodit burimor. "}}}
+    };
+}
