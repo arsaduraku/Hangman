@@ -3,7 +3,7 @@
 #include <fstream>
 using namespace std;
 
-// Struktura ruan statistikat e lojtarit, përfshirë fitoret, humbjet dhe shkallën e suksesit.
+// Struktura ruan statistikat e lojtarit, perfshire fitoret, humbjet dhe piket e fituara.
 struct PlayerStats {
     int wins;
     int losses;
