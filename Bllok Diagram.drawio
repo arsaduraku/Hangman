@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.12">
-  <diagram name="Page-1" id="fimrnE-iQMw2vcRcOvgp">
-    <mxGraphModel dx="1334" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="Hangman Diagram" id="fimrnE-iQMw2vcRcOvgp">
+    <mxGraphModel dx="1393" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-4" value="&lt;br&gt;difficulty ∈ {1, 2, 3} ?&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;fillColor=#cce5ff;strokeColor=#36393d;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="267.5" y="220" width="195" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-8" value="Jo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-8" value="&lt;b&gt;Jo&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="840" y="1685" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="ho7Oj8y4FpPHAUlmqDVh-4" edge="1">
@@ -48,7 +48,7 @@
             <mxPoint x="430" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-13" value="Po" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-13" value="&lt;b&gt;Po&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="310" y="290" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-14" value="Input - Marrja e te dhenave nga perdoruesi" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=light-dark(#ff0000, #ededed);" parent="1" vertex="1">
@@ -81,7 +81,7 @@
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-23" value="attempts &amp;gt; &lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt; &amp;amp;&amp;amp; !&lt;span class=&quot;hljs-built_in&quot;&gt;isWordGuessed&lt;/span&gt;(guessed) ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="620" width="210" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-26" value="Jo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-26" value="&lt;b&gt;Jo&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-50" y="1530" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ho7Oj8y4FpPHAUlmqDVh-27" target="ho7Oj8y4FpPHAUlmqDVh-31" edge="1">
@@ -93,7 +93,7 @@
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-29" value="Drejtkendesh – Shfaqja e statusit aktual te lojes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="55" y="780" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-30" value="Po" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-30" value="&lt;b&gt;Po&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="365" y="730" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ho7Oj8y4FpPHAUlmqDVh-31" target="ho7Oj8y4FpPHAUlmqDVh-33" edge="1">
@@ -124,7 +124,7 @@
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-35" value="&lt;br&gt;&lt;span class=&quot;hljs-attribute&quot;&gt;hintUsed&lt;/span&gt; = &lt;span class=&quot;hljs-literal&quot;&gt;true&lt;/span&gt;;&lt;br&gt;&lt;span class=&quot;hljs-attribute&quot;&gt;score&lt;/span&gt; -= &lt;span class=&quot;hljs-number&quot;&gt;10&lt;/span&gt;;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffcc99;strokeColor=#36393d;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="1080" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-37" value="Po" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-37" value="&lt;b&gt;Po&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="181" y="1050" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-43" value="Jo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -145,11 +145,11 @@
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.197;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ho7Oj8y4FpPHAUlmqDVh-44" target="ho7Oj8y4FpPHAUlmqDVh-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-50" value="Po" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-50" value="&lt;b&gt;Po&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="370" y="1170" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-51" value="Jo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="600" y="1170" width="60" height="30" as="geometry" />
+        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-51" value="&lt;b&gt;Jo&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="600" y="1172" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-52" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="481" y="1204" width="65.63" height="179.53" as="geometry" />
@@ -172,7 +172,7 @@
             <mxGeometry x="275" y="1430" width="170" height="60" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-58" value="Po" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-58" value="&lt;b&gt;Po&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="297" y="1400" width="60" height="30" as="geometry" />
         </mxCell>
         <UserObject label="&lt;br&gt;stats.losses++;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" id="ho7Oj8y4FpPHAUlmqDVh-60">
@@ -180,7 +180,7 @@
             <mxGeometry x="590" y="1440" width="120" height="50" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-61" value="Jo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ho7Oj8y4FpPHAUlmqDVh-61" value="&lt;b&gt;Jo&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="643" y="1410" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ho7Oj8y4FpPHAUlmqDVh-62" target="ho7Oj8y4FpPHAUlmqDVh-63" edge="1">
@@ -217,19 +217,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-84" value="Romb – Cikli kryesor i lojes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="520" y="650" width="150" height="30" as="geometry" />
+          <mxGeometry x="490" y="655" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-85" value="Input – Marrja e shkronjes nga perdoruesi" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="480" y="880" width="170" height="30" as="geometry" />
+          <mxGeometry x="455" y="885" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-86" value="Romb – Kontrolli nese lojtari kerkon ndihme" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="510" y="975" width="170" height="30" as="geometry" />
+          <mxGeometry x="505" y="975" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-87" value="Drejtkendesh – Shfaqja e ndihmes dhe heqja e pikeve" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="130" y="1140" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-88" value="Romb – Kontrollo nese shkronja eshte ne fjale" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="630" y="1100" width="150" height="30" as="geometry" />
+          <mxGeometry x="610" y="1100" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-89" value="Drejtkendesh – Perditesimi i shkronjave te gjetura dhe pikeve" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="167" y="1220" width="190" height="30" as="geometry" />
@@ -244,13 +244,13 @@
           <mxGeometry x="90" y="1445" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-93" value="Drejtkendesh – Fundi i lojes, permiresim i statistikave" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="710" y="1450" width="140" height="30" as="geometry" />
+          <mxGeometry x="715" y="1450" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-94" value="Drejtkendesh – Ruajtja e statistikave" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="287.5" y="1560" width="140" height="30" as="geometry" />
+          <mxGeometry x="293.5" y="1560" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ho7Oj8y4FpPHAUlmqDVh-95" value="Output – Shfaqja e pikeve totale" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="287.5" y="1662" width="150" height="30" as="geometry" />
+          <mxGeometry x="290.5" y="1659" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
