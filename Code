@@ -54,7 +54,7 @@ PlayerStats loadStats() {
 int main() {
     map<int, vector<pair<string, string>>> difficultyWords = {
        {1, {{"kompjuteri", "Nje pajisje elektronike qe perpunon te dhena dhe kryen llogaritje komplekse permes softuerit dhe harduerit te tij."}}},
-       {2, {{"powerpoint", "Nje program i zhvilluar nga Microsoft qe perdoret per te krijuar prezantime vizuale."}},
+       {2, {{"powerpoint", "Nje program i zhvilluar nga Microsoft qe perdoret per te krijuar prezantime vizuale."},
             {"projekti", "Nje pune ose detyre e planifikuar qe ka nje qellim specifik dhe zakonisht perfshin disa hapa per ta realizuar."}}},
        {3, {{"figma", "Nje mjet i fuqishem per dizajnin e nderfaqeve UI/UX qe funksionon ne internet."},
             {"github", "Nje platforme e njohur per ruajtjen dhe ndarjen e kodit burimor. "}}}
