@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <fstream>
 using namespace std;
 
 // Struktura ruan statistikat e lojtarit, përfshirë fitoret, humbjet dhe shkallën e suksesit.
@@ -20,4 +21,11 @@ void printWord(string word, vector<bool> guessed) {
         }
     }
     cout << endl;
+}
+//Funksioni kontrollon nese te gjitha shkronjat e fjales jane gjetur duke verifikuar nese te gjitha vlerat ne vektorin `guessed` jane `true`.
+bool isWordGuessed(vector<bool> guessed) {
+    for (bool g : guessed) {
+        if (!g) return false;
+    }
+    return true;
 }
