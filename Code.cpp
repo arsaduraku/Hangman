@@ -1,8 +1,10 @@
 #include <iostream>
 #include <vector>
+#include <ctime>
+#include <cstdlib>
 #include <fstream>
 #include <map>
-#include <utility>  
+
 
 
 using namespace std;
@@ -120,4 +122,25 @@ int main() {
        {3, {{"figma", "Nje mjet i fuqishem per dizajnin e nderfaqeve UI/UX qe funksionon ne internet."},
             {"github", "Nje platforme e njohur per ruajtjen dhe ndarjen e kodit burimor. "}}}
     };
+
+    srand(time(0));
+    int difficulty;
+   
+    cout << "Zgjedhni veshtiresine (1 = Lehte, 2 = Mesatar, 3 = Veshtire): ";
+    cin >> difficulty;
+   
+    if (difficultyWords.find(difficulty) == difficultyWords.end()) {
+        cout << "Niveli i veshtiresise eshte i pavlefshem!" << endl;
+        return 1;
+    }
+   
+    auto words = difficultyWords[difficulty];
+    auto selected = words[rand() % words.size()];
+    string word = selected.first;
+    string hint = selected.second;
+   
+    PlayerStats stats = loadStats();
+    playGame(word, hint, stats);
+   
+    return 0;
 }
