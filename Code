@@ -29,3 +29,13 @@ bool isWordGuessed(vector<bool> guessed) {
     }
     return true;
 }
+
+
+//Funksioni ruan statistikat e lojtarit ne nje skedar te quajtur ("stats.txt") duke perdorur objektin `ofstream`.
+void saveStats(PlayerStats stats) {
+    ofstream file("stats.txt");
+    if (file.is_open()) {
+        file << stats.wins << " " << stats.losses << " " << stats.successRate << endl;
+        file.close();
+    }
+}
